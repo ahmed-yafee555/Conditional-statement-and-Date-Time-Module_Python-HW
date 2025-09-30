@@ -13,8 +13,16 @@ if Marks >= 32:
         print(f"But, you didn't get an A+")
 else:
     print(f"Alas! you failed")
-    
+
+Password = "What is the password?"
+
+if Password == "What is the password?":
+    print("The wifi is connected")
+else:
+    print("The password is wrong")
+
 boy = True
 gender = ("boy" , "girl")[boy]
 print("Farah is ", gender)
 print("But, Foysal is not", gender)
+
